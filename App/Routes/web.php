@@ -14,6 +14,8 @@ Router::add('GET', '/courses', [HomeController::class, 'courses']);
 Router::add('GET', '/trainers', [HomeController::class, 'trainers']);
 Router::add('GET', '/events', [HomeController::class, 'events']);
 Router::add('GET', '/contact', [HomeController::class, 'contact']);
+Router::add('GET', '/price', [HomeController::class, 'price']);
+
 
 // user controller 
 Router::add('GET', '/register', [UserController::class, 'register']);
