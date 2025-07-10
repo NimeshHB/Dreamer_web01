@@ -31,7 +31,7 @@ class HomeController {
     //events
     public function events() {
         $data = ['title' => 'Events - Dreamer Nihongo Academy', 'message' => 'webview'];
-        View::render('surf-ui/events', $data);
+        View::render('surf-ui/events', $data, 'surf-layout');
     }
 
     //contact
