@@ -40,6 +40,13 @@ class HomeController {
         View::render('surf-ui/contact', $data, 'surf-layout');
     }
 
+    //price
+    public function price() {
+        $data = ['title' => 'Price - Dreamer Nihongo Academy', 'message' => 'webview'];
+        View::render('surf-ui/price', $data, 'surf-layout');
+    }
+
+
 }
 
 ?>
