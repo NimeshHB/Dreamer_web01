@@ -8,18 +8,37 @@
       return CryptoJS.HmacSHA256(message, this.secretKey).toString(CryptoJS.enc.Hex);
     },
 
+    showToast(message, type = 'success') {
+      const toast = document.createElement('div');
+      toast.className = `user-ui-toast ${type}`;
+      toast.innerText = message;
+      document.getElementById('user-ui-toast-container').appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 5000);
+    },
+
+    togglePreloader(show = true) {
+      document.getElementById('user-ui-preloader').classList.toggle('hidden', !show);
+    },
+
     async postRequest(url, data) {
+      this.togglePreloader(true);
+
       try {
         const response = await fetch(window.location.origin + url, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)
         });
+
         const result = await response.json();
-        alert(result.message);
+        this.showToast(result.message, result.status ? 'success' : 'error');
       } catch (error) {
         console.error("Error:", error);
-        alert("Request failed.");
+        this.showToast("Request failed.", 'error');
+      } finally {
+        this.togglePreloader(false);
       }
     }
   };
@@ -29,12 +48,11 @@
     const password = document.getElementById('password').value;
 
     if (!email || !password) {
-      alert("Please enter both email and password.");
+      AuthUtils.showToast("Please enter both email and password.", 'error');
       return;
     }
 
     const key = AuthUtils.generateKey([email, password]);
-
     const postData = { email, password, key };
     await AuthUtils.postRequest('/api/login', postData);
   }
@@ -42,15 +60,15 @@
   async function submitRegister() {
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
-    const mobile = document.getElementById('mobile').value.trim();
+    const password = document.getElementById('password').value.trim();
 
-    if (!name || !email || !mobile) {
-      alert("Please fill in all fields.");
+    if (!name || !email || !password) {
+      AuthUtils.showToast("Please fill in all fields.", 'error');
       return;
     }
 
-    const key = AuthUtils.generateKey([name, email, mobile]);
-
-    const postData = { name, email, mobile, key };
+    const key = AuthUtils.generateKey([name, email, password]);
+    const postData = { name, email, password, key };
     await AuthUtils.postRequest('/api/register', postData);
   }
+

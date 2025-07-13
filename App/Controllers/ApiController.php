@@ -1,6 +1,11 @@
 <?php
+//
 namespace App\Controllers;
 
+//import classes
+use App\Models\AuthHandler As Auth;
+use App\Core\DatabaseManager;
+//
 class ApiController {
     //testing api
     public function getData() {
@@ -14,19 +19,21 @@ class ApiController {
 
         $name = $data['name'] ?? '';
         $email = $data['email'] ?? '';
-        $mobile = $data['mobile'] ?? '';
+        $password = $data['password'] ?? '';
         $clientKey = $data['key'] ?? '';
 
         $secretKey = "Test@2025";  // Must match the frontend
 
         // Server generates HMAC just like the frontend
-        $expectedKey = hash_hmac('sha256', $name . $email . $mobile, $secretKey);
+        $expectedKey = hash_hmac('sha256', $name . $email . $password, $secretKey);
 
         if (hash_equals($expectedKey, $clientKey)) {
-            echo json_encode([
-                "status" => "success",
-                "message" => "register successful!"
-            ]);
+            //
+            $user_type_id = 1; // student
+            $user_status_id = 2; // inactive
+            $response = Auth::register($name, $email, $password, $user_type_id, $user_status_id);
+
+            echo json_encode($response);
         } else {
             echo json_encode([
                 "status" => "failed",
@@ -40,7 +47,7 @@ class ApiController {
  
         $data = json_decode(file_get_contents("php://input"), true);
 
-        $username = $data['username'] ?? '';
+        $username = $data['email'] ?? '';
         $password = $data['password'] ?? '';
         $clientKey = $data['key'] ?? '';
 
@@ -50,10 +57,8 @@ class ApiController {
         $expectedKey = hash_hmac('sha256', $username . $password, $secretKey);
 
         if (hash_equals($expectedKey, $clientKey)) {
-            echo json_encode([
-                "status" => "success",
-                "message" => "Login successful!"
-            ]);
+            $response = Auth::login($username, $password);
+            echo json_encode($response);
         } else {
             echo json_encode([
                 "status" => "failed",

@@ -8,7 +8,7 @@
     <!-- <form action="" method="post"> -->
       <input type="text" name="name" id="name" class="form-control" placeholder="Enter full name" required>
       <input type="email" name="email" id="email" class="form-control" placeholder="Enter email" required>
-      <input type="tel" name="mobile" id="mobile" class="form-control" placeholder="Enter mobile no" required>
+      <input type="password" name="password" id="password" class="form-control" placeholder="Enter password" required>
 
       <button onclick="submitRegister()" class="btn user-layout-btn-red">Register</button>
 
