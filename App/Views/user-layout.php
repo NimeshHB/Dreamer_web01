@@ -27,6 +27,9 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
+    <!-- JS encrypt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    
 </head>
 <body>
 
