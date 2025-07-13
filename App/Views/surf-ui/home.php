@@ -24,80 +24,99 @@
         <div class="swiper-wrapper">
 
           <div class="swiper-slide position-relative">
-            <img src="assets/img/hero-bg.jpg" alt="" class="slider-img">
+            <img src="assets/img/hero-bg1.jpg" alt="" class="slider-img">
             <div class="slider-caption">
-              <h1>Welcome to Dreamer Academy</h1>
-              <p>Learn Japanese with Confidence and Clarity</p>
-            </div>
-          </div>
-
-
-          <div class="swiper-slide position-relative">
-            <img src="assets/img/about.jpg" alt="" class="slider-img">
-            <div class="slider-caption">
-              <h1>Blossom into Fluency</h1>
-              <p>JLPT and SSW Courses for Every Level</p>
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+              <!-- <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+                  <a href="courses.php" class="btn-get-started">Register Now</a>
+                </div> -->
             </div>
           </div>
 
           <div class="swiper-slide position-relative">
-            <img src="assets/img/hero-bg-2.jpg" alt="" class="slider-img">
+            <img src="assets/img/hero-bg2.jpg" alt="" class="slider-img">
             <div class="slider-caption">
-              <h1>Join Our Community</h1>
-              <p>Engaging Lessons, Friendly Support, and Cultural Insights</p>
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
             </div>
-          <!-- Add more slides as needed -->
+          </div>
+          
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+            </div>
+          </div>
+          
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+            </div>
+          </div>
+
+
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
 
-      <style>
-        .slider-img {
-          width: 100vw;
-          max-width: 100vw;
-          height: 80vh;
-          object-fit: cover;
-          display: block;
-          margin-left: calc(-50vw + 50%);
-        }
-        .swiper, .swiper-wrapper, .swiper-slide {
-          width: 100vw !important;
-          max-width: 100vw !important;
-          height: 80vh !important;
-        }
-        .slider-caption {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: #fff;
-          text-align: center;
-          width: 100%;
-          max-width: 700px;
-          padding: 0 20px;
-          z-index: 2;
-          text-shadow: 0 2px 8px rgba(0,0,0,0.5);
-        }
-        .slider-caption h1 {
-          font-size: 2.5rem;
-          font-weight: bold;
-          margin-bottom: 1rem;
-        }
-        .slider-caption p {
-          font-size: 1.25rem;
-          margin-bottom: 0;
-        }
-        @media (max-width: 768px) {
+        <style>
+          .slider-img {
+            width: 100vw;
+            max-width: 100vw;
+            height: 80vh;
+            object-fit: cover;
+            display: block;
+            margin-left: calc(-50vw + 50%);
+          }
+
+          .swiper,
+          .swiper-wrapper,
+          .swiper-slide {
+            width: 100vw !important;
+            max-width: 100vw !important;
+            height: 80vh !important;
+          }
+
+          .slider-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            max-width: 700px;
+            padding: 0 20px;
+            z-index: 2;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+          }
+
           .slider-caption h1 {
-            font-size: 1.5rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
           }
-          .slider-caption p {
-            font-size: 1rem;
-          }
-        }
-      </style>
 
-    </div>
+          .slider-caption p {
+            font-size: 1.25rem;
+            margin-bottom: 0;
+          }
+
+          @media (max-width: 768px) {
+            .slider-caption h1 {
+              font-size: 1.5rem;
+            }
+
+            .slider-caption p {
+              font-size: 1rem;
+            }
+          }
+        </style>
+
+      </div>
 
   </section><!-- /Hero Section -->
 
