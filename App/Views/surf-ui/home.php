@@ -58,12 +58,11 @@
             </div>
           </div>
 
-
-          <div class="swiper-pagination"></div>
+          <!-- <div class="swiper-pagination"></div> -->
         </div>
 
         <style>
-          .slider-img {
+          #hero .slider-img {
             width: 100vw;
             max-width: 100vw;
             height: 80vh;
@@ -72,15 +71,15 @@
             margin-left: calc(-50vw + 50%);
           }
 
-          .swiper,
-          .swiper-wrapper,
-          .swiper-slide {
+          #hero .swiper,
+          #hero .swiper-wrapper,
+          #hero .swiper-slide {
             width: 100vw !important;
             max-width: 100vw !important;
             height: 80vh !important;
           }
 
-          .slider-caption {
+          #hero .slider-caption {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -94,23 +93,23 @@
             text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
           }
 
-          .slider-caption h1 {
+          #hero .slider-caption h1 {
             font-size: 2.5rem;
             font-weight: bold;
             margin-bottom: 1rem;
           }
 
-          .slider-caption p {
+          #hero .slider-caption p {
             font-size: 1.25rem;
             margin-bottom: 0;
           }
 
           @media (max-width: 768px) {
-            .slider-caption h1 {
+            #hero .slider-caption h1 {
               font-size: 1.5rem;
             }
 
-            .slider-caption p {
+            #hero .slider-caption p {
               font-size: 1rem;
             }
           }
@@ -265,7 +264,7 @@
   <!-- Features Section -->
   <section id="features" class="features section">
 
-    <div class="container">
+    <!-- <div class="container">
 
       <div class="row gy-4">
 
@@ -274,88 +273,88 @@
             <i class="bi bi-eye" style="color: #ffbb2c;"></i>
             <h3><a href="" class="stretched-link">Speaking</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="200">
           <div class="features-item">
             <i class="bi bi-infinity" style="color: #5578ff;"></i>
             <h3><a href="" class="stretched-link">Writing</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="features-item">
             <i class="bi bi-mortarboard" style="color: #e80368;"></i>
             <h3><a href="" class="stretched-link">Listening</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="400">
           <div class="features-item">
             <i class="bi bi-nut" style="color: #e361ff;"></i>
             <h3><a href="" class="stretched-link">Reading</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="500">
           <div class="features-item">
             <i class="bi bi-shuffle" style="color: #47aeff;"></i>
             <h3><a href="" class="stretched-link">Activities</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="600">
           <div class="features-item">
             <i class="bi bi-star" style="color: #ffa76e;"></i>
             <h3><a href="" class="stretched-link">Festivals</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="700">
           <div class="features-item">
             <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
             <h3><a href="" class="stretched-link"> culture</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="800">
           <div class="features-item">
             <i class="bi bi-camera-video" style="color: #4233ff;"></i>
             <h3><a href="" class="stretched-link">Society</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="900">
           <div class="features-item">
             <i class="bi bi-command" style="color: #b2904f;"></i>
             <h3><a href="" class="stretched-link">communication</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1000">
           <div class="features-item">
             <i class="bi bi-dribbble" style="color: #b20969;"></i>
             <h3><a href="" class="stretched-link">exercises</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
           <div class="features-item">
             <i class="bi bi-activity" style="color: #ff5828;"></i>
             <h3><a href="" class="stretched-link">Qualifications</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
         <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
           <div class="features-item">
             <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
             <h3><a href="" class="stretched-link">Flavor Nivelanda</a></h3>
           </div>
-        </div><!-- End Feature Item -->
+        </div>
 
       </div>
 
-    </div>
+    </div> -->
 
   </section><!-- /Features Section -->
 
@@ -529,14 +528,13 @@
     </div>
 
   </section><!-- /Trainers Index Section -->
-
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonials section">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Testimonials</h2>
-      <p>What Our Students Have to Say</p>
+      <p>What are they saying</p>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -573,14 +571,14 @@
             <div class="testimonial-wrap">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Sasika Wasantha Kumari</h3>
-                <h4>Nugegoda, Sri Lanka</h4>
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>I started my Japanese language journey at Colombo Japanese Language Institute a couple of years ago, where I acquired extensive knowledge about the language. After completing a well-structured probation period, I was honored to join as an instructor. Now, as a trained Japanese Language Teacher, I guide students with passion and provide high-quality education to help them achieve their goals. This role has also allowed me to apply innovative teaching methods and contribute to the institute’s growth. The experience has strengthened my leadership, communication, and interpersonal skills, preparing me to thrive in dynamic environments.</span>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -666,15 +664,7 @@
     </div>
 
   </section><!-- /Testimonials Section -->
-
-<<<<<<< HEAD
 </main>
-
-
-
-
-
-
 
 <?php
 // Optional: You can add PHP logic here if needed, e.g., fetching data from a database
@@ -682,29 +672,34 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Traditions</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-        }
-        .card {
-            text-align: center;
-            max-width: 300px;
-        }
-        .card img {
-            max-width: 100%;
-            height: auto;
-        }
-        .card p {
-            margin: 10px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japanese Traditions</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .card {
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .card p {
+      margin: 10px 0;
+    }
+  </style>
 </head>
+
 <body>
   <h2 style="text-align:center; margin-top:30px;">Cultural Education Activities</h2>
   <div class="container">
@@ -725,7 +720,6 @@
     </div>
   </div>
 </body>
+
 </html>
-=======
 </main>
->>>>>>> c0ff1d224906098c5b653e9442ea5496889e23e1
