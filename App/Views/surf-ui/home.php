@@ -26,6 +26,7 @@
           <div class="swiper-slide position-relative">
             <img src="assets/img/hero-bg1.jpg" alt="" class="slider-img">
             <div class="slider-caption">
+<<<<<<< HEAD
               <h1>Welcome to Dreamer Academy</h1>
               <p>Learn Japanese with Confidence and Clarity</p>
             </div>
@@ -37,10 +38,18 @@
             <div class="slider-caption">
               <h1>Blossom into Fluency</h1>
               <p>JLPT and SSW Courses for Every Level</p>
+=======
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+              <!-- <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+                  <a href="courses.php" class="btn-get-started">Register Now</a>
+                </div> -->
+>>>>>>> aca259e6785b43166c2e0da2b96aa1fc49077f2a
             </div>
           </div>
 
           <div class="swiper-slide position-relative">
+<<<<<<< HEAD
             <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
             <div class="slider-caption">
               <h1>Join Our Community</h1>
@@ -49,62 +58,90 @@
 
             <div class="swiper-slide position-relative">
             <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
+=======
+            <img src="assets/img/hero-bg2.jpg" alt="" class="slider-img">
+>>>>>>> aca259e6785b43166c2e0da2b96aa1fc49077f2a
             <div class="slider-caption">
-              <h1>Join Our Community</h1>
-              <p>Engaging Lessons, Friendly Support, and Cultural Insights</p>
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
             </div>
-          <!-- Add more slides as needed -->
+          </div>
+
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+            </div>
+          </div>
+
+
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
 
-      <style>
-        .slider-img {
-          width: 100vw;
-          max-width: 100vw;
-          height: 80vh;
-          object-fit: cover;
-          display: block;
-          margin-left: calc(-50vw + 50%);
-        }
-        .swiper, .swiper-wrapper, .swiper-slide {
-          width: 100vw !important;
-          max-width: 100vw !important;
-          height: 80vh !important;
-        }
-        .slider-caption {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: #fff;
-          text-align: center;
-          width: 100%;
-          max-width: 700px;
-          padding: 0 20px;
-          z-index: 2;
-          text-shadow: 0 2px 8px rgba(0,0,0,0.5);
-        }
-        .slider-caption h1 {
-          font-size: 2.5rem;
-          font-weight: bold;
-          margin-bottom: 1rem;
-        }
-        .slider-caption p {
-          font-size: 1.25rem;
-          margin-bottom: 0;
-        }
-        @media (max-width: 768px) {
+        <style>
+          .slider-img {
+            width: 100vw;
+            max-width: 100vw;
+            height: 80vh;
+            object-fit: cover;
+            display: block;
+            margin-left: calc(-50vw + 50%);
+          }
+
+          .swiper,
+          .swiper-wrapper,
+          .swiper-slide {
+            width: 100vw !important;
+            max-width: 100vw !important;
+            height: 80vh !important;
+          }
+
+          .slider-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            max-width: 700px;
+            padding: 0 20px;
+            z-index: 2;
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+          }
+
           .slider-caption h1 {
-            font-size: 1.5rem;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
           }
-          .slider-caption p {
-            font-size: 1rem;
-          }
-        }
-      </style>
 
-    </div>
+          .slider-caption p {
+            font-size: 1.25rem;
+            margin-bottom: 0;
+          }
+
+          @media (max-width: 768px) {
+            .slider-caption h1 {
+              font-size: 1.5rem;
+            }
+
+            .slider-caption p {
+              font-size: 1rem;
+            }
+          }
+        </style>
+
+      </div>
 
   </section><!-- /Hero Section -->
 
@@ -200,7 +237,7 @@
       <div class="row gy-4">
 
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="why-box">
+          <div class="why-box" style="padding-bottom: 60px;">
             <h3>Blossom into fluency with JLPT and SSW courses</h3>
             <p>
               Discover a range of engaging Japanese language courses tailored to every level. The JLPT Study Courses (N5, N4, and N3) offer a structured path from basic to advanced skills, perfect for learners aiming to excel in the Japanese Language Proficiency Test. Each course is designed with a vibrant, cherry blossom-inspired aesthetic, making learning both enjoyable and immersive.
@@ -214,34 +251,32 @@
         <div class="col-lg-8 d-flex align-items-stretch">
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-xl-4">
+            <div class="col-4">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <!-- <i class="bi bi-clipboard-data"></i> -->
-                <img src="assets/img/exam/n5.png" alt=""><br>
-                <h3 style="color:rgb(180, 0, 0);">JLPT N5 </h3><br><br>
-                <h4> Basic Japanese language<br> course</h4>
+                <img src="assets/img/exam/n5.png" alt="">
+                <h3 style="color:var(--accent-color); margin-top: 25px;font-weight: bold;">JLPT N5 </h3>
+                <h4> Basic Japanese language course</h4>
                 <p> </p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-4" data-aos="fade-up" data-aos-delay="300">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <!--<i class="bi bi-gem"></i>-->
-                <img src="assets/img/exam/n4.png" alt=""><br>
-                <h3 style="color: #b20969;">JLPT N4 </h3><br><br>
+                <img src="assets/img/exam/n4.png" alt="">
+                <h3 style="color: var(--accent-color);margin-top: 25px;font-weight: bold;">JLPT N4 </h3>
                 <h4> 2nd Japanese Language Course</h4>
                 <p> </p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-4" data-aos="fade-up" data-aos-delay="400">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <img src="assets/img/exam/n3.png" alt=""><br>
-                <h3 style="color:rgb(178, 9, 9);">JLPT N3 </h3><br><br>
-                <h4> 3rd Japanese language <br>course</h4>
+                <img src="assets/img/exam/n3.png" alt="">
+                <h3 style="color:var(--accent-color);margin-top: 25px;font-weight: bold;">JLPT N3 </h3>
+                <h4> 3rd Japanese language course</h4>
                 <p> </p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
           </div>
         </div>

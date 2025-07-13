@@ -27,6 +27,10 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
+    <!-- JS File -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <script src="assets/js/user-ui.js"></script>
+    
 </head>
 <body>
 
