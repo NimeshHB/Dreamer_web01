@@ -26,16 +26,41 @@
           <div class="swiper-slide position-relative">
             <img src="assets/img/hero-bg1.jpg" alt="" class="slider-img">
             <div class="slider-caption">
+<<<<<<< HEAD
+              <h1>Welcome to Dreamer Academy</h1>
+              <p>Learn Japanese with Confidence and Clarity</p>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg2.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h1>Blossom into Fluency</h1>
+              <p>JLPT and SSW Courses for Every Level</p>
+=======
               <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
               <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
               <!-- <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                   <a href="courses.php" class="btn-get-started">Register Now</a>
                 </div> -->
+>>>>>>> aca259e6785b43166c2e0da2b96aa1fc49077f2a
             </div>
           </div>
 
           <div class="swiper-slide position-relative">
+<<<<<<< HEAD
+            <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h1>Join Our Community</h1>
+              <p>Engaging Lessons, Friendly Support, and Cultural Insights</p>
+            </div>
+
+            <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
+=======
             <img src="assets/img/hero-bg2.jpg" alt="" class="slider-img">
+>>>>>>> aca259e6785b43166c2e0da2b96aa1fc49077f2a
             <div class="slider-caption">
               <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
               <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
@@ -664,6 +689,8 @@
     </div>
 
   </section><!-- /Testimonials Section -->
+
+<<<<<<< HEAD
 </main>
 
 <?php
@@ -672,34 +699,29 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Japanese Traditions</title>
-  <style>
-    .container {
-      display: flex;
-      justify-content: space-around;
-      padding: 20px;
-    }
-
-    .card {
-      text-align: center;
-      max-width: 300px;
-    }
-
-    .card img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .card p {
-      margin: 10px 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Traditions</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            text-align: center;
+            max-width: 300px;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card p {
+            margin: 10px 0;
+        }
+    </style>
 </head>
-
 <body>
   <h2 style="text-align:center; margin-top:30px;">Cultural Education Activities</h2>
   <div class="container">
@@ -720,6 +742,7 @@
     </div>
   </div>
 </body>
-
 </html>
+=======
 </main>
+>>>>>>> c0ff1d224906098c5b653e9442ea5496889e23e1
