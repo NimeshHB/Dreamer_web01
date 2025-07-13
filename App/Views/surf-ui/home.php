@@ -1,20 +1,111 @@
-
 <main class="main">
 
   <!-- Hero Section -->
-  <section id="hero" class="hero section dark-background">
+  <section id="hero" class="hero section dark-background" style="padding: 0;">
 
-    <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+    <div class="container-fluid" style="padding:0;" data-aos="fade-up" data-aos-delay="100">
 
-    <div class="container">
-      <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
-      <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
-      <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-        <a href="courses.php" class="btn-get-started">Register Now</a>
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": 1,
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h1>Welcome to Dreamer Academy</h1>
+              <p>Learn Japanese with Confidence and Clarity</p>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/about.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h1>Blossom into Fluency</h1>
+              <p>JLPT and SSW Courses for Every Level</p>
+            </div>
+          </div>
+
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/hero-bg-2.jpg" alt="" class="slider-img">
+            <div class="slider-caption">
+              <h1>Join Our Community</h1>
+              <p>Engaging Lessons, Friendly Support, and Cultural Insights</p>
+            </div>
+          <!-- Add more slides as needed -->
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
+
+      <style>
+        .slider-img {
+          width: 100vw;
+          max-width: 100vw;
+          height: 80vh;
+          object-fit: cover;
+          display: block;
+          margin-left: calc(-50vw + 50%);
+        }
+        .swiper, .swiper-wrapper, .swiper-slide {
+          width: 100vw !important;
+          max-width: 100vw !important;
+          height: 80vh !important;
+        }
+        .slider-caption {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fff;
+          text-align: center;
+          width: 100%;
+          max-width: 700px;
+          padding: 0 20px;
+          z-index: 2;
+          text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+        .slider-caption h1 {
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+        .slider-caption p {
+          font-size: 1.25rem;
+          margin-bottom: 0;
+        }
+        @media (max-width: 768px) {
+          .slider-caption h1 {
+            font-size: 1.5rem;
+          }
+          .slider-caption p {
+            font-size: 1rem;
+          }
+        }
+      </style>
+
     </div>
 
   </section><!-- /Hero Section -->
+
+
+
+
+
+
 
   <!-- About Section -->
   <section id="about" class="about section">
@@ -120,8 +211,9 @@
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                 <!-- <i class="bi bi-clipboard-data"></i> -->
                 <img src="assets/img/exam/n5.png" alt=""><br>
-                <h3 style="color:rgb(180, 0, 0);">JLPT N5 </h3><br><br><h4> Basic Japanese language<br> course</h4>
-                <p>   </p>
+                <h3 style="color:rgb(180, 0, 0);">JLPT N5 </h3><br><br>
+                <h4> Basic Japanese language<br> course</h4>
+                <p> </p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -129,16 +221,18 @@
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                 <!--<i class="bi bi-gem"></i>-->
                 <img src="assets/img/exam/n4.png" alt=""><br>
-                <h3 style="color: #b20969;">JLPT N4 </h3 ><br><br><h4> 2nd Japanese Language Course</h4>
-                <p>   </p>
+                <h3 style="color: #b20969;">JLPT N4 </h3><br><br>
+                <h4> 2nd Japanese Language Course</h4>
+                <p> </p>
               </div>
             </div><!-- End Icon Box -->
 
             <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                 <img src="assets/img/exam/n3.png" alt=""><br>
-                <h3 style="color:rgb(178, 9, 9);">JLPT N3 </h3><br><br><h4> 3rd Japanese language <br>course</h4>
-                <p>   </p>
+                <h3 style="color:rgb(178, 9, 9);">JLPT N3 </h3><br><br>
+                <h4> 3rd Japanese language <br>course</h4>
+                <p> </p>
               </div>
             </div><!-- End Icon Box -->
 
@@ -151,7 +245,7 @@
 
   </section><!-- /Why Us Section -->
 
-   <!-- Features Section -->
+  <!-- Features Section -->
   <section id="features" class="features section">
 
     <div class="container">
@@ -556,6 +650,7 @@
 
   </section><!-- /Testimonials Section -->
 
+<<<<<<< HEAD
 </main>
 
 
@@ -614,3 +709,6 @@
   </div>
 </body>
 </html>
+=======
+</main>
+>>>>>>> c0ff1d224906098c5b653e9442ea5496889e23e1
