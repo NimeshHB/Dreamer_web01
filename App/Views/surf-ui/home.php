@@ -26,7 +26,7 @@
           <div class="swiper-slide position-relative">
             <img src="assets/img/hero-bg1.jpg" alt="" class="slider-img">
             <div class="slider-caption">
-<<<<<<< HEAD
+
               <h1>Welcome to Dreamer Academy</h1>
               <p>Learn Japanese with Confidence and Clarity</p>
             </div>
@@ -38,18 +38,18 @@
             <div class="slider-caption">
               <h1>Blossom into Fluency</h1>
               <p>JLPT and SSW Courses for Every Level</p>
-=======
+
               <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
               <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
               <!-- <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                   <a href="courses.php" class="btn-get-started">Register Now</a>
                 </div> -->
->>>>>>> aca259e6785b43166c2e0da2b96aa1fc49077f2a
+
             </div>
           </div>
 
           <div class="swiper-slide position-relative">
-<<<<<<< HEAD
+
             <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
             <div class="slider-caption">
               <h1>Join Our Community</h1>
@@ -57,90 +57,90 @@
             </div>
 
             <div class="swiper-slide position-relative">
-            <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
-=======
-            <img src="assets/img/hero-bg2.jpg" alt="" class="slider-img">
->>>>>>> aca259e6785b43166c2e0da2b96aa1fc49077f2a
-            <div class="slider-caption">
-              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
-              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+              <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
+
+              <img src="assets/img/hero-bg2.jpg" alt="" class="slider-img">
+
+              <div class="slider-caption">
+                <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+              </div>
             </div>
+
+            <div class="swiper-slide position-relative">
+              <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
+              <div class="slider-caption">
+                <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+              </div>
+            </div>
+
+            <div class="swiper-slide position-relative">
+              <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
+              <div class="slider-caption">
+                <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
+              </div>
+            </div>
+
+            <!-- <div class="swiper-pagination"></div> -->
           </div>
 
-          <div class="swiper-slide position-relative">
-            <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
-            <div class="slider-caption">
-              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
-              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
-            </div>
-          </div>
+          <style>
+            #hero .slider-img {
+              width: 100vw;
+              max-width: 100vw;
+              height: 80vh;
+              object-fit: cover;
+              display: block;
+              margin-left: calc(-50vw + 50%);
+            }
 
-          <div class="swiper-slide position-relative">
-            <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
-            <div class="slider-caption">
-              <h2 data-aos="fade-up" data-aos-delay="100">Unlock New Opportunitie<br>by Learning Japanese.</h2>
-              <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
-            </div>
-          </div>
+            #hero .swiper,
+            #hero .swiper-wrapper,
+            #hero .swiper-slide {
+              width: 100vw !important;
+              max-width: 100vw !important;
+              height: 80vh !important;
+            }
 
-          <!-- <div class="swiper-pagination"></div> -->
-        </div>
+            #hero .slider-caption {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: #fff;
+              text-align: center;
+              width: 100%;
+              max-width: 700px;
+              padding: 0 20px;
+              z-index: 2;
+              text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            }
 
-        <style>
-          #hero .slider-img {
-            width: 100vw;
-            max-width: 100vw;
-            height: 80vh;
-            object-fit: cover;
-            display: block;
-            margin-left: calc(-50vw + 50%);
-          }
-
-          #hero .swiper,
-          #hero .swiper-wrapper,
-          #hero .swiper-slide {
-            width: 100vw !important;
-            max-width: 100vw !important;
-            height: 80vh !important;
-          }
-
-          #hero .slider-caption {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: #fff;
-            text-align: center;
-            width: 100%;
-            max-width: 700px;
-            padding: 0 20px;
-            z-index: 2;
-            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-          }
-
-          #hero .slider-caption h1 {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 1rem;
-          }
-
-          #hero .slider-caption p {
-            font-size: 1.25rem;
-            margin-bottom: 0;
-          }
-
-          @media (max-width: 768px) {
             #hero .slider-caption h1 {
-              font-size: 1.5rem;
+              font-size: 2.5rem;
+              font-weight: bold;
+              margin-bottom: 1rem;
             }
 
             #hero .slider-caption p {
-              font-size: 1rem;
+              font-size: 1.25rem;
+              margin-bottom: 0;
             }
-          }
-        </style>
 
-      </div>
+            @media (max-width: 768px) {
+              #hero .slider-caption h1 {
+                font-size: 1.5rem;
+              }
+
+              #hero .slider-caption p {
+                font-size: 1rem;
+              }
+            }
+          </style>
+
+        </div>
 
   </section><!-- /Hero Section -->
 
@@ -690,7 +690,7 @@
 
   </section><!-- /Testimonials Section -->
 
-<<<<<<< HEAD
+
 </main>
 
 <?php
@@ -699,29 +699,34 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Traditions</title>
-    <style>
-        .container {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-        }
-        .card {
-            text-align: center;
-            max-width: 300px;
-        }
-        .card img {
-            max-width: 100%;
-            height: auto;
-        }
-        .card p {
-            margin: 10px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japanese Traditions</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .card {
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .card p {
+      margin: 10px 0;
+    }
+  </style>
 </head>
+
 <body>
   <h2 style="text-align:center; margin-top:30px;">Cultural Education Activities</h2>
   <div class="container">
@@ -742,7 +747,7 @@
     </div>
   </div>
 </body>
+
 </html>
-=======
+
 </main>
->>>>>>> c0ff1d224906098c5b653e9442ea5496889e23e1
