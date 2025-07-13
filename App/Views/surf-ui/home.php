@@ -667,4 +667,65 @@
 
   </section><!-- /Testimonials Section -->
 
+<<<<<<< HEAD
 </main>
+
+
+
+
+
+
+
+<?php
+// Optional: You can add PHP logic here if needed, e.g., fetching data from a database
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Traditions</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            text-align: center;
+            max-width: 300px;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+  <h2 style="text-align:center; margin-top:30px;">Cultural Education Activities</h2>
+  <div class="container">
+    <div class="card">
+      <img src="assets/img/hero-bg2.jpg" alt="Tea Ceremony">
+      <h3>(Sadō) - Tea Ceremony</h3>
+      <p style="padding: 10px;">Students learn the traditional Japanese tea ceremony, focusing on the rituals of preparation and service. The practice fosters mindfulness, harmony, respect, and an appreciation for simplicity and beauty in everyday life.</p>
+    </div>
+    <div class="card">
+      <img src="assets/img/hero-bg2.jpg" alt="Bowing Etiquette">
+      <h3>(Ojigi) - Bowing Etiquette</h3>
+      <p style="padding: 10px;">Students learn the traditional Japanese art of bowing, practicing various types such as informal, formal, and deeply respectful bows. Through this, they understand how each gesture conveys different levels of respect, gratitude, and humility, reflecting social harmony and awareness.</p>
+    </div>
+    <div class="card">
+      <img src="assets/img/hero-bg2.jpg" alt="Japanese Calligraphy">
+      <h3>(Shodō) - Japanese Calligraphy</h3>
+      <p style="padding: 10px;">Using traditional brush and ink, students practice the art of writing Japanese characters with precision and grace. This mindful activity fosters patience, concentration, and a deep appreciation for the aesthetic and cultural beauty of each stroke in calligraphy.</p>
+    </div>
+  </div>
+</body>
+</html>
+=======
+</main>
+>>>>>>> c0ff1d224906098c5b653e9442ea5496889e23e1
