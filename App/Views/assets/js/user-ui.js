@@ -8,7 +8,7 @@
       return CryptoJS.HmacSHA256(message, this.secretKey).toString(CryptoJS.enc.Hex);
     },
 
-    showToast(message, type = 'success') {
+    showToast(message, type) {
       const toast = document.createElement('div');
       toast.className = `user-ui-toast ${type}`;
       toast.innerText = message;
@@ -33,7 +33,7 @@
         });
 
         const result = await response.json();
-        this.showToast(result.message, result.status ? 'success' : 'error');
+        this.showToast(result.message, result.status);
       } catch (error) {
         console.error("Error:", error);
         this.showToast("Request failed.", 'error');

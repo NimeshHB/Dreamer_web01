@@ -15,6 +15,15 @@
       <div class="user-layout-form-link mt-3">
         Do have an account? <a href="../../login">Login</a>
       </div>
+
+      <!-- Preloader -->
+      <div id="user-ui-preloader" class="hidden user-ui-preloader-fullscreen">
+        <div class="user-ui-spinner"></div>
+      </div>
+
+      <!-- Toast Message -->
+      <div id="user-ui-toast-container"></div>
+
     <!-- </form> -->
   </div>
 </div>
