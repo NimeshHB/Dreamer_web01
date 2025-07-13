@@ -41,7 +41,7 @@
               <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
             </div>
           </div>
-          
+
           <div class="swiper-slide position-relative">
             <img src="assets/img/hero-bg3.jpg" alt="" class="slider-img">
             <div class="slider-caption">
@@ -49,7 +49,7 @@
               <p data-aos="fade-up" data-aos-delay="200">Build Your Future with the Power of Language.</p>
             </div>
           </div>
-          
+
           <div class="swiper-slide position-relative">
             <img src="assets/img/hero-bg4.jpg" alt="" class="slider-img">
             <div class="slider-caption">
@@ -212,7 +212,7 @@
       <div class="row gy-4">
 
         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-          <div class="why-box">
+          <div class="why-box" style="padding-bottom: 60px;">
             <h3>Blossom into fluency with JLPT and SSW courses</h3>
             <p>
               Discover a range of engaging Japanese language courses tailored to every level. The JLPT Study Courses (N5, N4, and N3) offer a structured path from basic to advanced skills, perfect for learners aiming to excel in the Japanese Language Proficiency Test. Each course is designed with a vibrant, cherry blossom-inspired aesthetic, making learning both enjoyable and immersive.
@@ -226,34 +226,32 @@
         <div class="col-lg-8 d-flex align-items-stretch">
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-xl-4">
+            <div class="col-4">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <!-- <i class="bi bi-clipboard-data"></i> -->
-                <img src="assets/img/exam/n5.png" alt=""><br>
-                <h3 style="color:rgb(180, 0, 0);">JLPT N5 </h3><br><br>
-                <h4> Basic Japanese language<br> course</h4>
+                <img src="assets/img/exam/n5.png" alt="">
+                <h3 style="color:var(--accent-color); margin-top: 25px;font-weight: bold;">JLPT N5 </h3>
+                <h4> Basic Japanese language course</h4>
                 <p> </p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-4" data-aos="fade-up" data-aos-delay="300">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <!--<i class="bi bi-gem"></i>-->
-                <img src="assets/img/exam/n4.png" alt=""><br>
-                <h3 style="color: #b20969;">JLPT N4 </h3><br><br>
+                <img src="assets/img/exam/n4.png" alt="">
+                <h3 style="color: var(--accent-color);margin-top: 25px;font-weight: bold;">JLPT N4 </h3>
                 <h4> 2nd Japanese Language Course</h4>
                 <p> </p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
-            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="col-4" data-aos="fade-up" data-aos-delay="400">
               <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                <img src="assets/img/exam/n3.png" alt=""><br>
-                <h3 style="color:rgb(178, 9, 9);">JLPT N3 </h3><br><br>
-                <h4> 3rd Japanese language <br>course</h4>
+                <img src="assets/img/exam/n3.png" alt="">
+                <h3 style="color:var(--accent-color);margin-top: 25px;font-weight: bold;">JLPT N3 </h3>
+                <h4> 3rd Japanese language course</h4>
                 <p> </p>
               </div>
-            </div><!-- End Icon Box -->
+            </div>
 
           </div>
         </div>
