@@ -20,6 +20,8 @@ Router::add('GET', '/price', [HomeController::class, 'price']);
 // user controller 
 Router::add('GET', '/register', [UserController::class, 'register']);
 Router::add('GET', '/login', [UserController::class, 'login']);
-
+Router::add('GET', '/logout', [UserController::class, 'logout']);
+//
+Router::add('GET', '/dashboard', [UserController::class, 'dashboard']);
 
 ?>

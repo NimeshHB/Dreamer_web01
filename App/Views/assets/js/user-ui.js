@@ -12,6 +12,12 @@
       const toast = document.createElement('div');
       toast.className = `user-ui-toast ${type}`;
       toast.innerText = message;
+
+      // redirect to dashboard
+      if (type === "success") {
+          window.location.href = "/dashboard";
+      }
+
       document.getElementById('user-ui-toast-container').appendChild(toast);
       setTimeout(() => {
         toast.remove();

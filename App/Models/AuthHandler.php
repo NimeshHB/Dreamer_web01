@@ -59,6 +59,10 @@ class AuthHandler {
 	        // Commit
 	        $pdo->commit();
 
+	        //assign sessions 
+	        $_SESSION['name'] = $user["name"];
+	        $_SESSION['user_id'] = $user["username"];
+
 	        // Return response with accid
 	        return [
 	            "status" => "success",
