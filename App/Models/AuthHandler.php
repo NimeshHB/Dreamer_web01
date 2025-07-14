@@ -7,6 +7,43 @@ use App\Core\DatabaseManager As DatabaseManager;
 
 //
 class AuthHandler {
+	//auth check
+	public static function status(){
+        //check session 
+        if (!isset($_SESSION['user_id'])) {
+            // Redirect to login page
+            header("Location: /login?failed"); //
+            exit;
+        }
+
+        return true;
+	}
+
+	//logout
+	public static function logout(){
+        // Destroy all session data
+        session_unset();     // Unset all session variables
+        session_destroy();   // Destroy the session
+
+        // Optional: Delete session cookie
+        if (ini_get("session.use_cookies")) {
+            $params = session_get_cookie_params();
+            setcookie(
+                session_name(),
+                '',
+                time() - 42000,
+                $params["path"],
+                $params["domain"],
+                $params["secure"],
+                $params["httponly"]
+            );
+        }
+
+        // Redirect to login page
+        header("Location: /login?logout=success"); //
+        exit;		
+	}
+
 	
 	//login
 	public static function login($username, $password){
