@@ -97,6 +97,7 @@ class AuthHandler {
 	        $pdo->commit();
 
 	        //assign sessions 
+	        $_SESSION['user_type'] = $user["user_type_id"];
 	        $_SESSION['name'] = $user["name"];
 	        $_SESSION['user_id'] = $user["username"];
 
