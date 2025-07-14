@@ -1,6 +1,9 @@
 <?php
-
+//
 namespace App\Core;
+
+//import classes
+use App\Core\View;
 
 class Router {
     private static array $routes = [];
@@ -36,6 +39,8 @@ class Router {
         }
 
         http_response_code(404);
-        echo json_encode(["error" => "Not Found"]);
+        $data = ['title' => 'Error 404 - Dreamer Nihongo Academy', 'message' => 'webview'];
+        View::render('user-ui/404', $data, 'user-layout');      
+        // echo json_encode(["error" => "Not Found"]);
     }
 }
