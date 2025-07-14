@@ -1,0 +1,38 @@
+# Vendor directories (Composer dependencies)
+/vendor/
+
+# Environment-specific configuration files
+.env
+.env.local
+.env.*.local
+
+# Cache and temporary files
+/cache/
+*.cache
+*.log
+/tmp/
+
+# Build and dependency files
+composer.lock
+/node_modules/
+/public/build/
+/public/bundles/
+/public/storage/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+/tests/_output/
+/coverage/
+phpunit.xml
+
+# Sensitive or local configuration files
+App/Core/DatabaseManager.php
