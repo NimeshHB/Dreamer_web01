@@ -18,6 +18,7 @@ Router::add('GET', '/price', [HomeController::class, 'price']);
 
 
 // user controller 
+Router::add('GET', '/404', [UserController::class, 'error404']);
 Router::add('GET', '/register', [UserController::class, 'register']);
 Router::add('GET', '/login', [UserController::class, 'login']);
 Router::add('GET', '/logout', [UserController::class, 'logout']);
