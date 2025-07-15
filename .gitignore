@@ -35,4 +35,5 @@ Thumbs.db
 phpunit.xml
 
 # Sensitive or local configuration files
-App/Core/DatabaseManager.php
+# App/Core/DatabaseManager.php
+/.db/
