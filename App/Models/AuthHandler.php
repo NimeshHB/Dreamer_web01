@@ -13,6 +13,10 @@ class AuthHandler {
 		$type_id = $_SESSION['user_type'] ?? 1;
 
 		try {
+	        // DB connection
+	        $db = DatabaseManager::mysql();
+	        $pdo = $db;
+
 		    // Start transaction
 		    $pdo->beginTransaction();
 
@@ -20,13 +24,13 @@ class AuthHandler {
 		    $stmt = $pdo->prepare("SELECT type FROM user_type WHERE id = :id");
 
 		    // Bind parameter safely
-		    $stmt->bindParam(':id', $type_id, PDO::PARAM_INT);
+		    $stmt->bindParam(':id', $type_id, \PDO::PARAM_INT);
 
 		    // Execute query
 		    $stmt->execute();
 
 		    // Fetch result
-		    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+		    $result = $stmt->fetch(\PDO::FETCH_ASSOC);
 
 		    if ($result && isset($result['type'])) {
 		        $user_type = $result['type'];
@@ -40,7 +44,7 @@ class AuthHandler {
 		    //
 		    return strtolower($user_type);
 
-		} catch (PDOException $e) {
+		} catch (\PDOException $e) {
 		    // Rollback on error
 		    $pdo->rollBack();
 	        return [
