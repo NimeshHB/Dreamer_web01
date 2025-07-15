@@ -32,8 +32,10 @@ class UserController {
     //dashboard
     public function dashboard() {
         Auth::status();
+        $type = Auth::type();
+
         $data = ['title' => 'Dashboard - Dreamer Nihongo Academy', 'message' => 'webview'];
-        View::render('user-ui/dashboard', $data, 'user-layout');
+        View::render("user-ui/{$type}-dashboard", $data, 'user-layout');
     }
 
 }

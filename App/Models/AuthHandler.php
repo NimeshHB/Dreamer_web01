@@ -7,6 +7,50 @@ use App\Core\DatabaseManager As DatabaseManager;
 
 //
 class AuthHandler {
+	
+	//user type
+	public static function type(){
+		$type_id = $_SESSION['user_type'] ?? 1;
+
+		try {
+		    // Start transaction
+		    $pdo->beginTransaction();
+
+		    // Prepare SQL
+		    $stmt = $pdo->prepare("SELECT type FROM user_type WHERE id = :id");
+
+		    // Bind parameter safely
+		    $stmt->bindParam(':id', $type_id, PDO::PARAM_INT);
+
+		    // Execute query
+		    $stmt->execute();
+
+		    // Fetch result
+		    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+		    if ($result && isset($result['type'])) {
+		        $user_type = $result['type'];
+		    } else {
+		        $user_type = 'STUDENT'; // fallback
+		    }
+
+		    // Commit transaction
+		    $pdo->commit();
+
+		    //
+		    return strtolower($user_type);
+
+		} catch (PDOException $e) {
+		    // Rollback on error
+		    $pdo->rollBack();
+	        return [
+	            "status" => "error",
+	            "message" => "Database error: " . $e->getMessage()
+	        ];
+		}
+
+	}
+
 	//auth check
 	public static function status(){
         //check session 
